@@ -15,7 +15,11 @@ const Header: React.FC = () => {
           About
         </Link>
 
-        {/* Add more links as needed */}
+        {/* Link to Post page*/}
+        <Link href="/post">
+          Post
+        </Link>
+
       </nav>
     </header>
   );
