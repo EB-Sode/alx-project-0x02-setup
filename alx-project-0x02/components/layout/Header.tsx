@@ -6,7 +6,7 @@ const Header: React.FC = () => {
     <header className="w-full p-4 bg-gray-100 shadow">
       <nav className="flex gap-6">
         {/* Link to HOME page */}
-        <Link href="/">
+        <Link href="/home">
           Home
         </Link>
 
