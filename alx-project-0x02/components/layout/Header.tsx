@@ -16,7 +16,7 @@ const Header: React.FC = () => {
         </Link>
 
         {/* Link to Post page*/}
-        <Link href="/post">
+        <Link href="/posts">
           Post
         </Link>
 
