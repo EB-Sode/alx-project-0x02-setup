@@ -18,7 +18,7 @@ export default function PostModal({ isOpen, onClose, onSubmit }: PostModalProps)
 
   return (
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center p-4">
-      <div className="bg-white rounded-xl shadow-lg p-6 w-full max-w-md">
+      <form className="bg-white rounded-xl shadow-lg p-6 w-full max-w-md">
         <h2 className="text-xl font-semibold mb-4">Create Post</h2>
 
         <input
@@ -51,7 +51,7 @@ export default function PostModal({ isOpen, onClose, onSubmit }: PostModalProps)
             Submit
           </button>
         </div>
-      </div>
+      </form>
     </div>
   );
 }
