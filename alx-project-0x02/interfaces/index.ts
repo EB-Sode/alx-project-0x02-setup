@@ -15,3 +15,10 @@ export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElemen
   shape?: "rounded-sm" | "rounded-md" | "rounded-full";
   onClick?: () => void;
 }
+
+export interface PostProps {
+  userId: number;
+  id?: number;
+  title: string;
+  content: string;
+}
