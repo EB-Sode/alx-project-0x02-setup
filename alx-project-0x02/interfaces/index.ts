@@ -9,7 +9,7 @@ export interface PostModalProps {
   onSubmit: (data: { title: string; content: string }) => void;
 }
 
-export interface ButtonProps {
+export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   label: string;
   size?: "small" | "medium" | "large";
   shape?: "rounded-sm" | "rounded-md" | "rounded-full";
